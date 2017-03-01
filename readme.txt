@@ -2,7 +2,7 @@ This works only for your windows PC
 
 ---------------------INSTALLING---------------------
 How to add speaking time to windows PC?
-download a.vbs then
+download a.vbs then copy it to 'Temp' folder of c drive
 1)first go to task scheduler
 2)click on 'create task'
 3)give it some name (speakingTime) [remembering name is imp when you want to remove it]
@@ -15,8 +15,9 @@ download a.vbs then
 10)go to actions
 11)click on new
 12)under 'program/script' browse and add 'a.vbs' which you first downloaded
-13)go to actions and UNSELECT everything
-14)go to actions and UNSELECT 'stop the task if it runs longer than 3 days'
+13)then click ok
+14)go to conditions and UNSELECT everything
+15)go to settings and UNSELECT 'stop the task if it runs longer than 3 days'
 
 in step 6 --
     if present time is 10:47PM then set it to 11:00PM
