@@ -1,8 +1,11 @@
-How to add it to windows PC?
+This works only for your windows PC
+
+---------------------INSTALLING---------------------
+How to add speaking time to windows PC?
 download a.vbs then
 1)first go to task scheduler
 2)click on 'create task'
-3)give it some name
+3)give it some name (speakingTime) [remembering name is imp when you want to remove it]
 4)go to triggers
 5)click on new
 6)select one time under settings (from left side bar among 'one time', 'daily', 'weekly', 'monthly') and change time to coming hour like 10 am or ...
@@ -17,3 +20,15 @@ download a.vbs then
 
 in step 6 --
     if present time is 10:47PM then set it to 11:00PM
+
+
+---------------------UNINSTALLING---------------------
+If you want to remove this then,
+1)first go to task scheduler
+2)go under active tasks(it is below task status which is under overview of task scheduler)
+3)select the name (speakingTime) which you gave and double click it.
+4)(if it is not selected once again click it)it opens another panel which on right side contains actions.
+5)under action there are two drop down menus task scheduler library and selected item
+6)under selected item there is delete option and click on it
+7)another dialog box appears for conformation, then click on 'yes'
+8)now speakingTime is removed
